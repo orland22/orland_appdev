@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Luchavez Apps</string>
+    <string-array name="types">
+        <item>dog</item>
+        <item>cat</item>
+        <item>snake</item>
+        <item>pokemon</item>
+    </string-array>
+
+    <string-array name="dog">
+        <item>German Sheperd</item>
+        <item>Bulldog</item>
+        <item>Poodle</item>
+        <item>Beagle</item>
+        <item>Labrador Retriever</item>
+        <item>Golden Retriever</item>
+        <item>Chihuahua</item>
+        <item>Siberian Husky</item>
+        <item>Dachshund</item>
+        <item>Rottweiler</item>
+    </string-array>
+
+    <string-array name="cat">
+        <item>Persian</item>
+        <item>British Shorthair</item>
+        <item>Maine Coon</item>
+        <item>Siamese Cat</item>
+        <item>American Shorthair</item>
+        <item>Ragdoll</item>
+        <item>Sphynx Cat</item>
+        <item>Bengal Cat</item>
+        <item>Abbyssinian Cat</item>
+        <item>Scottish Fold</item>
+    </string-array>
+
+    <string-array name="snake">
+        <item>Boa Constrictor</item>
+        <item>European Viper</item>
+        <item>Oriental Coral Snake</item>
+        <item>Scarlet King Snake</item>
+        <item>Green Tree Snake</item>
+        <item>Yellow-bellied Snake</item>
+        <item>Eastern Mud Snake</item>
+        <item>Rhinoceros Viper</item>
+        <item>Eastern King Snake</item>
+        <item>Indian Cobra</item>
+    </string-array>
+
+    <string-array name="pokemon">
+        <item>Pichu</item>
+        <item>Cleffa</item>
+        <item>Igglybuff</item>
+        <item>Togepi</item>
+        <item>Tyrogue</item>
+        <item>Smoochum</item>
+        <item>Elekid</item>
+        <item>Magby</item>
+        <item>Azurill</item>
+        <item>Wynaut</item>
+    </string-array>
+
+    <string-array name="apps">
+        <item>Activity 1</item>
+        <item>Activity 2</item>
+        <item>Activity 3</item>
+        <item>Activity 4</item>
+        <item>Activity 5</item>
+        <item>Activity 6</item>
+        <item>Activity 7</item>
+        <item>Activity 8</item>
+        <item>Others</item>
+    </string-array>
+</resources>

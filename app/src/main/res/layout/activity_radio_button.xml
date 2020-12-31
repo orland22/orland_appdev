@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#534040"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Activity8">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Are you handsome?"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp">
+
+                <RadioButton
+                    android:id="@+id/rdoYes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="YES"
+                    android:onClick="rdoIsClicked"/>
+
+                <RadioButton
+                    android:id="@+id/rdoNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NO"
+                    android:onClick="rdoIsClicked"/>
+
+                <RadioButton
+                    android:id="@+id/rdoNevermind"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Never mind"
+                    android:onClick="rdoIsClicked"/>
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
