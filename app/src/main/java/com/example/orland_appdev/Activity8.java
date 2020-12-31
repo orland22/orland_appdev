@@ -12,7 +12,7 @@ public class Activity8 extends BaseActivity {
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.activity_radio_button;
+        return R.layout.activity_8;
     }
 
     @Override

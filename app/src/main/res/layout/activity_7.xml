@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#A7D369"
+    android:background="#CDB7D1"
     android:gravity="center"
     android:orientation="vertical"
     android:paddingLeft="20dp"
@@ -15,7 +15,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Budget Buddy"
+        android:text="Budget Badi!"
+        android:textColor="#673AB7"
         android:textSize="25sp"
         android:textStyle="bold" />
 
@@ -27,7 +28,7 @@
         android:backgroundTint="@android:color/white"
         android:ems="10"
         android:gravity="center"
-        android:hint="Enter Net Pay"
+        android:hint="Enter salary..."
         android:inputType="numberDecimal"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"

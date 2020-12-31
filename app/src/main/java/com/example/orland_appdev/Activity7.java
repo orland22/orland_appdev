@@ -27,7 +27,7 @@ public class Activity7 extends BaseActivity {
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.activity_budget_buddy;
+        return R.layout.activity_7;
     }
 
     @Override
